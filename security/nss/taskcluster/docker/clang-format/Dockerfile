@@ -1,5 +1,5 @@
 # Minimal image with clang-format-13
-FROM debian:bookworm-20240904-slim
+FROM debian:12.13-slim
 LABEL maintainer="John Schanck <jschanck@mozilla.com>"
 
 VOLUME /builds/worker/checkouts
