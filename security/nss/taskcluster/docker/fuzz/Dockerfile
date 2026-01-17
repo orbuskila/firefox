@@ -4,7 +4,7 @@
 # docker invocation or ASAN won't work.
 # On taskcluster for ASAN use `features: ["allowPtrace"]`.
 # See https://github.com/google/sanitizers/issues/764#issuecomment-276700920
-FROM ubuntu:noble-20240605
+FROM ubuntu:24.04
 LABEL maintainer="Martin Thomson <martin.thomson@gmail.com>"
 
 VOLUME /builds/worker/checkouts
